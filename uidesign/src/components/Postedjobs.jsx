@@ -14,7 +14,7 @@ export const Postedjobs = (props) => {
   const [data,setData] =useState([])
   const navigate = useNavigate()
   const [usertoken,settoken] = useState(sessionStorage.getItem("userToken"))
-  const apiURL2="http://localhost:1000/api/employersjobs"
+  const apiURL2="/api/employersjobs"
 
 
   useEffect(() => {
